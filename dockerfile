@@ -4,9 +4,9 @@ WORKDIR /home/
 
 RUN git clone https://github.com/EasyCoding-7/MrCoGuRi.git
 
-RUN pip install -r requirements.txt
+WORKDIR /home/MrCoGuRi/
 
-WORKDIR /home/coguri_main/
+RUN pip install -r requirements.txt
 
 RUN pip install gunicorn
 
