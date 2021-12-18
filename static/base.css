@@ -22,3 +22,13 @@
     border-radius: 1rem;
     margin: 2rem;
 }
+
+.coguri_main_header_nav {
+    font-family: 'NanumSquareR', cursive;
+    color: black;
+    text-decoration: none;
+}
+
+.coguri_main_header_nav:hover {
+    color: red;
+}
